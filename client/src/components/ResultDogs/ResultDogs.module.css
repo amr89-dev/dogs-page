@@ -1,0 +1,21 @@
+.resultDogs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 60%;
+}
+
+.link {
+  font-size: 1.4rem;
+  margin: 0 0.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.13);
+  margin-bottom: 0.5rem;
+  padding: 0.25rem 1rem;
+  transition: transform 0.3s ease;
+}
+
+.link:hover {
+  transform: scale(1.05);
+}

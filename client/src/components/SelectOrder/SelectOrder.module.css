@@ -1,0 +1,19 @@
+.selectOrder {
+  font-size: 1.4rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.radios {
+  margin: 0 0.5rem;
+}
+.selects select {
+  font-family: "Hi Melody", cursive;
+  font-size: 1.4rem;
+  margin: 0 0.5rem;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.13);
+  border-radius: 0.5rem;
+  border: thin solid white;
+  margin-bottom: 0.5rem;
+}

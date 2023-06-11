@@ -1,0 +1,19 @@
+.card {
+  border: thin solid white;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.13);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin: 1rem 1rem;
+  max-width: 300px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+.card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}

@@ -1,0 +1,7 @@
+export const GET_ALL_DOGS = "GET_ALL_DOGS";
+export const GET_ALL_TEMPERAMENTS = "GET_ALL_TEMPERAMENTS";
+export const CREATE_DOG = "CREATE_DOG";
+export const ORDER = "ORDER";
+export const NO_DATA = "NO_DATA";
+export const FILTER_BY_TEMPERAMENT = "FILTER_BY_TEMPERAMENT";
+export const FILTER_BY_ORIGIN = "FILTER_BY_ORIGIN";

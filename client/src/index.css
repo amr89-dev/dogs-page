@@ -1,0 +1,78 @@
+/*-------------------------RESET----------------------------------*/
+
+@import url("https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap");
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: "Hi Melody", cursive;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.3s ease-out;
+}
+
+a:hover {
+  opacity: 0.75;
+}
+a:visited {
+  color: black;
+}
+a:link {
+  color: inherit;
+}
+h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+button {
+  cursor: pointer;
+}
+
+h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+h3 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+h4 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+h5 {
+  margin: 0;
+  font-size: 0.85rem;
+}
+
+h6 {
+  margin: 0;
+  font-size: 0.7rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+p {
+  line-height: 1.6;
+}

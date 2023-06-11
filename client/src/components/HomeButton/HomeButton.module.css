@@ -1,0 +1,68 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.landing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+}
+.landing#title {
+  width: 100%;
+}
+.containerText {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.perrito {
+  max-height: 300px;
+  margin-right: 1rem;
+}
+
+.texto {
+  align-self: center;
+  font-size: 1.5rem;
+  width: 40%;
+}
+
+@keyframes shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: translateX(-10px);
+  }
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: translateX(10px);
+  }
+}
+.landing button {
+  margin-top: 2rem;
+  margin-left: 10rem;
+  border: none;
+  padding: 0.3rem 1rem;
+  font-weight: bold;
+  color: black;
+  background: transparent;
+  animation: shake 1s;
+  animation-delay: 0.5s;
+  animation-iteration-count: 2;
+}
+button img {
+  height: 2rem;
+}

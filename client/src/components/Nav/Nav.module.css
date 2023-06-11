@@ -1,0 +1,40 @@
+.header {
+  background-color: white;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  display: flex;
+  width: 100%;
+  height: auto;
+  z-index: 20000;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.13);
+}
+
+.logo {
+  height: 2rem;
+  margin: 1rem 0;
+  transition: transform 0.3s ease;
+}
+
+.logo img {
+  max-height: 100%;
+  width: auto;
+}
+.headerLinks {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.headerLinks a {
+  margin: 1rem;
+  font-size: 1.8rem;
+  padding: 0rem 1rem;
+}
+.headerLinks a:target {
+  border: thin solid red;
+}
+.activeLink {
+  transform: scale(1.05);
+}
