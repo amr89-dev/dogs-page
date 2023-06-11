@@ -209,6 +209,7 @@ export default function dogReducer(state = initialState, action) {
         };
       }
     }
+    /* eslint-disable */
     default:
       return state;
   }
