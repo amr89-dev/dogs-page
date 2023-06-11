@@ -16,7 +16,7 @@ import Form from "./components/Form/Form";
 import axios from "axios";
 import Error404 from "./components/Error404/Error404";
 
-const endpoint = "http://localhost:3001/dogs";
+const endpoint = "https://dogs-page-production.up.railway.app/dogs";
 
 function App() {
   const [access, setAccess] = useState(false);

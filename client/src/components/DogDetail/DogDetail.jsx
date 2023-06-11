@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import axios from "axios";
 import { useParams, useNavigate } from "react-router-dom";
 import Loader from "../Loader/Loader";
@@ -9,7 +9,7 @@ const DogDetail = () => {
   const { idRaza } = useParams();
   const navigate = useNavigate();
 
-  let url = `http://localhost:3001/dogs/${idRaza}`;
+  let url = `https://dogs-page-production.up.railway.app/dogs/${idRaza}`;
 
   useEffect(() => {
     try {

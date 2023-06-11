@@ -8,8 +8,8 @@ import {
   NO_DATA,
 } from "../actions-types/dogActionsTypes";
 import axios from "axios";
-const endpoint = "http://localhost:3001/dogs";
-const endpointTemp = "http://localhost:3001/temperaments";
+const endpoint = "https://dogs-page-production.up.railway.app/dogs";
+const endpointTemp = "https://dogs-page-production.up.railway.app/temperaments";
 
 export const getAllDogs = () => {
   return async (dispatch) => {
